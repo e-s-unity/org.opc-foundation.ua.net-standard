@@ -1,5 +1,5 @@
 {
-  "name": "org.opc-foundation.net-standard",
+  "name": "org.opc-foundation.ua.net-standard",
   "version": "1.4.371",
   "displayName": "OPC UA .NET Standard",
   "description": "The OPC UA .NET Standard stack enables you to build multi-platform OPC UA Applications with rich functionality including Server, Client and PubSub.",
