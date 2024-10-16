@@ -1,0 +1,17 @@
+{
+  "name": "org.opc-foundation.net-standard",
+  "version": "1.4.371",
+  "displayName": "OPC UA .NET Standard",
+  "description": "The OPC UA .NET Standard stack enables you to build multi-platform OPC UA Applications with rich functionality including Server, Client and PubSub.",
+  "unity": "2023.2",
+  "keywords": [
+    "OPC",
+    "OPC UA",
+    "Communication"
+  ],
+  "licensesUrl": "https://opcfoundation.org/license/source/1.11/index.html",
+  "documentationUrl": "https://opcfoundation.github.io/UA-.NETStandard/",
+  "author": {
+    "name": "OPC Foundation"
+  }
+}

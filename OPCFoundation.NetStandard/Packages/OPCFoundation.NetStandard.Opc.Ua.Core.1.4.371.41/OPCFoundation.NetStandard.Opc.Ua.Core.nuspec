@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>OPCFoundation.NetStandard.Opc.Ua.Core</id>
+    <version>1.4.371.41</version>
+    <authors>OPC Foundation</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">licenses/LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images/logo.jpg</icon>
+    <projectUrl>https://github.com/OPCFoundation/UA-.NETStandard</projectUrl>
+    <description>OPC UA Core Class Library</description>
+    <releaseNotes>https://github.com/OPCFoundation/UA-.NETStandard/releases</releaseNotes>
+    <copyright>Copyright © 2004-2022 OPC Foundation, Inc</copyright>
+    <tags>OPCFoundation OPC UA netstandard ios linux dotnet net netcore uwp</tags>
+    <repository type="git" url="https://github.com/OPCFoundation/UA-.NETStandard" commit="4d30ccb6b35b5c47f78463ef88f8a5662aa42486" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="OPCFoundation.NetStandard.Opc.Ua.Security.Certificates" version="1.4.371.41" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.28" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="OPCFoundation.NetStandard.Opc.Ua.Security.Certificates" version="1.4.371.41" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.28" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="OPCFoundation.NetStandard.Opc.Ua.Security.Certificates" version="1.4.371.41" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="OPCFoundation.NetStandard.Opc.Ua.Security.Certificates" version="1.4.371.41" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.28" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="OPCFoundation.NetStandard.Opc.Ua.Security.Certificates" version="1.4.371.41" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.1.28" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
